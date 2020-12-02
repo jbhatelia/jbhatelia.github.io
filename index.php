@@ -1,0 +1,584 @@
+<?php session_start();?>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jeet Bhatelia - InfoSec Engineer</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Nivo Slider Theme -->
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive Stylesheet File -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+<style>
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+  <div id="preloader"></div>
+
+  <header>
+    <!-- header-area start -->
+    <div id="sticker" class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+                <!-- Brand -->
+                <a class="navbar-brand page-scroll sticky-logo" href="index.php">
+                  <h1><span>Jeet </span>Bhatelia</h1>
+                  <!-- Uncomment below if you prefer to use an image logo -->
+                  <!-- <img src="img/logo.png" alt="" title=""> -->
+								</a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a class="page-scroll" href="#home">CyberUpdates</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#about">About</a>
+                  </li>
+				  <li>
+                    <a class="page-scroll" href="#other">Other</a>
+                  </li>
+                  
+
+
+                </ul>
+              </div>
+              <!-- navbar-collapse -->
+            </nav>
+            <!-- END: Navigation -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-area end -->
+  </header>
+  <!-- header end -->
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
+  <!-- Start Slider Area -->
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="img/slider/d1.jpg" alt="" title="#slider-direction-1" />
+        <img src="img/slider/d2.jpg" alt="" title="#slider-direction-2" />
+        <img src="img/slider/d3.jpg" alt="" title="#slider-direction-3" />
+      </div>
+	  
+<?php 
+session_unset();
+session_destroy();  ?>
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Welcome</h4>
+            </div>
+            <div class="modal-body">
+				<p>I Hope you and your family are healthy and safe during these uncertain and unprecedented times. Wishing you and your family Safe & Happy Holidays!<br> <br> Regards, <br>Jeet Bhatelia</p>
+                
+            </div>
+        </div>
+    </div>
+</div>
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">This Year</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">India sees 37% increase in data breaches, cyber attacks </h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn page-scroll" target="_blank" href="https://www.theweek.in/news/biz-tech/2020/11/17/india-sees-37-increase-in-data-breaches-cyber-attacks-this-year.html">THE WEEK</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 2 -->
+      <div id="slider-direction-2" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content text-center">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">Article</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">2020's worst cryptocurrency breaches, thefts, and exit scams</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn page-scroll" target="_blank" href="https://www.zdnet.com/article/2020s-worst-cryptocurrency-breaches-thefts-and-exit-scams/">ZDnet</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 3 -->
+      <div id="slider-direction-3" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">In 2020,</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">India Hit By 375 Cyberattacks Daily</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn page-scroll" target="_blank" href="https://inc42.com/buzz/india-hit-by-375-cyberattacks-daily-in-2020-says-pant/">Inc42</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Slider Area -->
+
+
+
+  <!-- Faq area start -->
+  <div id="about" class="faq-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>About</h2>
+          </div>
+        </div>
+      </div><center>
+	  
+	  
+<p><span style="font-size: 18px;">Welcome!</span></p>
+<p style="text-align: justify;"><span style="font-size: 18px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am currently <strong>Assistant Manager</strong> (G.E.T. - BOND Program) at <a href="https://www.bgr.in/features/what-is-jio-platforms-and-why-investors-are-pouring-money-in-it-892651/" rel="noopener noreferrer" target="_blank"><strong>Jio Platforms Limited</strong></a> &amp; a<strong>&nbsp;Bachelor of Engineering (B.E.)</strong> in <strong>Information Technology</strong> from <a href="http://www.djsce.ac.in" rel="noopener noreferrer" target="_blank"><strong>Dwarkadas J. Sanghvi College of Engineering</strong></a><strong>&nbsp;</strong>(Autonomous under <a href="https://mu.ac.in/" target="_blank" rel="noopener noreferrer"></a><a href="https://mu.ac.in/" rel="noopener noreferrer" target="_blank"></a><strong><a href="https://mu.ac.in/" rel="noopener noreferrer" target="_blank">University of Mumbai</a></strong>) .<br><br>I&rsquo;m also one of The Youngest<strong>&nbsp;</strong><a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=cXyDwNbRsnEcQUjp8/9k1/FzdLn9DNSaOazSg8Yp16E=" rel="noopener noreferrer" target="_blank"><strong>EC-Council Certified Security Analyst (ECSA v10)</strong></a> holders in the World.<br><br>I&rsquo;m also a <a href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=A/BweGYteNNjE7Bbr9ufLCpZ/A9KRU0nN4j+9D+uBHM=" rel="noopener noreferrer" target="_blank"><strong>Certified Ethical Hacker (C|EH v9)</strong></a> by<a href="https://www.eccouncil.org/about/" rel="noopener noreferrer" target="_blank">&nbsp;<strong>EC-Council</strong>&nbsp;</a>and am also certified by the <strong>Maharashtra Self-Employment Training Board</strong> in the field of &quot;<strong><a href="https://drive.google.com/file/d/1qamfSVOGuW8OkQgDPHmSmHDnJCILPamN/view?usp=sharing" rel="noopener noreferrer" target="_blank">Ethical Hacking &amp; Cellular Security</a></strong>&quot;.<br><br>I also have knowledge about <strong><a href="https://www.udemy.com/certificate/UC-EZVC8QDV/" rel="noopener noreferrer" target="_blank">ISO/IEC 27001:2013 (Information Security Management)</a></strong>. &amp; am a Expert Witness for Mumbai Police (Cyber Crime Cell).<br><br>I worked as an <a href="https://drive.google.com/file/d/1iWW26XIv1X-AnzU6wPU4nt8-QWaE9a-U/view?usp=sharing" rel="noopener noreferrer" target="_blank"><strong>Information Security Intern</strong></a> at <strong>Skynet Secure Solutions</strong> from June 2018 to July 2018.<br><br>I have also successfully conducted a 2 day <a href="https://drive.google.com/file/d/18YJ5W3arKIG5FTXZjmPwcVq-Pa2Y1B1f/view?usp=sharing" rel="noopener noreferrer" target="_blank"><strong>&ldquo;Internet Security Workshop&rdquo; on &ldquo;Ethical Hacking &amp; Cellular Security&rdquo;</strong></a> which was organised by <strong>ICWiCOM 2019</strong> at D.J. Sanghvi College of Engineering.<br><br>I have also conducted workshop on<strong>&nbsp;&ldquo;Information Security&rdquo;</strong> at <strong>Computer Society of India (CSI)</strong>, Mumbai Office along with the Skynet Team.<br><br>I worked on &ldquo;<strong><a href="https://drive.google.com/open?id=1PzMpprKLudC6WMvoUCGjuh-YewVZV3Ho" rel="noopener noreferrer" target="_blank">Post-Disaster Management System using Blockchain</a></strong>&rdquo; with <a href="https://www.cdac.in/index.aspx?id=CorporateProfile" rel="noopener noreferrer" target="_blank"><strong>C-DAC (Centre for Development of Advanced Computing)</strong></a>.<br><br>Recently, I was selected for the ACM India Summer School 2019 on <strong>Detection &amp; Analysis of Malware</strong> by<strong>&nbsp;</strong><a href="https://drive.google.com/open?id=1dTs0S4uOAUg2Lvwsvy97ie2MUPwl4R8s" rel="noopener noreferrer" target="_blank"><strong>ACM India &amp; Quick Heal Technologies</strong></a>.</span></p>
+<p><span style="font-size: 18px;"><br></span></p>
+<hr>
+<p style="text-align: center;"><span style="font-size: 20px;"><span style="font-family: 'Times New Roman', Times, serif;"><strong><em><br>I aim to become a CISO.<br><br><strong>Currently Seeking Job Opportunity in the field of Information Security.</strong></em></strong></span></span></p><!-- end Row -->
+    </div></center>
+  </div>
+  <!-- End Faq Area -->
+<div class="our-skill-area fix hidden-sm">
+    <div class="test-overly"></div>
+    <div class="skill-bg area-padding-2">
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Start contact Area -->
+  <div id="other" class="contact-area">
+    <div class="contact-inner area-padding">
+      <div class="contact-overly"></div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>Other</h2>
+            </div>
+          </div>
+        </div><center>
+        
+ 
+          <!-- Start  contact -->
+<p><span style="font-size: 20px;"><strong>Workshops/Events Attended:</strong></span></p>
+<p><br></p>
+<table style="width: 87%; margin-right: calc(13%);">
+    <thead>
+        <tr>
+            <th style="width: 35.6748%;">
+                <div style="text-align: center;"><span style="font-size: 19px;">Name</span></div>
+            </th>
+            <th style="width: 44.4878%;">
+                <div style="text-align: center;"><span style="font-size: 19px;">Organizer</span></div>
+            </th>
+            <th style="width: 19.5231%; text-align: center;">
+                <div style="text-align: center;"><span style="font-size: 19px;">Year</span></div>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="width: 35.6748%;"><span style="font-size: 16px;">Unity 3D (Game Development)</span></td>
+            <td style="width: 44.4878%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">NADC, IIT Madras</span></div>
+            </td>
+            <td style="width: 19.5231%; text-align: center;"><span style="font-size: 16px;">2015</span></td>
+        </tr>
+        <tr>
+            <td style="width: 35.6748%;"><span style="font-size: 16px;">Ethical Hacking</span></td>
+            <td style="width: 44.4878%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Skynet Secure Solutions</span></div>
+            </td>
+            <td style="width: 19.5231%; text-align: center;"><span style="font-size: 16px;">2016</span></td>
+        </tr>
+        <tr>
+            <td style="width: 35.6748%;"><span style="font-size: 16px;">Photoshop</span></td>
+            <td style="width: 44.4878%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Student Chapter of CSI, DJ Sanghvi CoE</span></div>
+            </td>
+            <td style="width: 19.5231%; text-align: center;"><span style="font-size: 16px;">2017</span></td>
+        </tr>
+        <tr>
+            <td style="width: 35.6748%;"><span style="font-size: 16px;">Android</span></td>
+            <td style="width: 44.4878%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Student Chapter of CSI, DJ Sanghvi CoE</span></div>
+            </td>
+            <td style="width: 19.5231%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">2017</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 35.6748%;"><span style="font-size: 16px;">Bootstrap</span></td>
+            <td style="width: 44.4878%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Student Chapter of CSI, DJ Sanghvi CoE</span></div>
+            </td>
+            <td style="width: 19.5231%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">2017</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 35.6748%;"><span style="font-size: 16px;">Python</span></td>
+            <td style="width: 44.4878%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Student Chapter of CSI, DJ Sanghvi CoE</span></div>
+            </td>
+            <td style="width: 19.5231%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">2017</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 35.6748%;"><span style="font-size: 16px;">SQL</span></td>
+            <td style="width: 44.4878%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Student Chapter of CSI, DJ Sanghvi CoE</span></div>
+            </td>
+            <td style="width: 19.5231%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">2017</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 35.6748%;"><span style="font-size: 16px;">JS &amp; Angular JS</span></td>
+            <td style="width: 44.4878%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Student Chapter of CSI, DJ Sanghvi CoE</span></div>
+            </td>
+            <td style="width: 19.5231%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">2018</span></div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><span style="font-size: 16px;"><br></span></p>
+<hr>
+<p><br></p>
+<p><strong><span style="font-size: 20px;">Certificate/License Number:</span></strong></p>
+<p><br></p>
+<table style="width: 100%;">
+    <thead>
+        <tr>
+            <th style="width: 31.2563%;">
+                <div style="text-align: center;"><span style="font-size: 19px;">Name</span></div>
+            </th>
+            <th style="width: 39.0591%;">
+                <div style="text-align: center;"><span style="font-size: 19px;">Organisation</span></div>
+            </th>
+            <th style="width: 29.5595%;">
+                <div style="text-align: center;"><span style="font-size: 19px;">Certificate Number</span></div>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="width: 31.2563%;"><span style="font-size: 16px;">ECSA v10</span></td>
+            <td style="width: 39.0591%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">EC-Council</span></div>
+            </td>
+            <td style="width: 29.5595%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">ECC96435256010</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 31.2563%;"><span style="font-size: 16px;">CEH v9</span></td>
+            <td style="width: 39.0591%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">EC-Council</span></div>
+            </td>
+            <td style="width: 29.5595%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">ECC50567719211</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 31.2563%;"><span style="font-size: 16px;">ISO 27001:2013</span></td>
+            <td style="width: 39.0591%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Udemy</span></div>
+            </td>
+            <td style="width: 29.5595%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">UC-EZVC8QDV</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 31.2563%;"><span style="font-size: 16px;">Ethical Hacker &amp; Cellular Security</span></td>
+            <td style="width: 39.0591%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Maharashtra Self-Employment Training Board (MSETB)<br></span></div>
+            </td>
+            <td style="width: 29.5595%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">6627</span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 31.2563%;"><span style="font-size: 16px;">Blockchain Essentials</span></td>
+            <td style="width: 39.0591%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">IBM</span></div>
+            </td>
+            <td style="width: 29.5595%;">
+                <div style="text-align: center;"><span style="font-size: 16px;"><b><a href="https://courses.cognitiveclass.ai/certificates/c983348f0c1f4144bfbab73270fc8fe8" rel="noopener noreferrer" target="_blank">Click Here</a></b></span></div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 31.2563%;"><span style="font-size: 16px;">Scrum: The Basics</span></td>
+            <td style="width: 39.0591%;">
+                <div style="text-align: center;"><span style="font-size: 16px;">Linkedin Learing</span></div>
+            </td>
+            <td style="width: 29.5595%;">
+                <div style="text-align: center;"><span style="font-size: 16px;"><b><a href="https://drive.google.com/file/d/1TefmELyFubO2F55wPgHzb41geG59a2Gd/view?usp=sharing" rel="noopener noreferrer" target="_blank">Click Here</a></b></span></div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p><span style="font-size: 16px;"><br></span></p>
+<hr>
+<p><br></p>
+<p><span style="font-size: 19px;"><strong>Mini Projects :</strong></span></p>
+<p><br></p>
+<table style="width: 100%;">
+    <thead>
+        <tr>
+            <th>
+                <div style="text-align: center;"><span style="font-size: 19px;">Name</span></div>
+            </th>
+            <th>
+                <div style="text-align: center;"><span style="font-size: 19px;">Technologies</span></div>
+            </th>
+            <th>
+                <div style="text-align: center;"><span style="font-size: 19px;">Year</span></div>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="width: 33.3333%;">Auditorium Management System</td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;">Java + Microsoft SQL Server&nbsp;</div>
+            </td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;">2017</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 33.3333%;">Pizza Ordering Application</td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;">Python + SQLite</div>
+            </td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;">2018</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 33.3333%;">Airline Ticket Booking &amp; Management System</td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;">HTML, CSS, JS, JQuery, AJAX + PHP + MySQL</div>
+            </td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;">2018</div>
+            </td>
+        </tr>
+        <tr>
+            <td style="width: 33.3333%;">RFID based Attendance System</td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;">Arduino + RC522</div>
+            </td>
+            <td style="width: 33.3333%;">
+                <div style="text-align: center;">2018</div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+		 
+          <!-- End Left contact -->
+       </center> </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Area -->
+
+  <!-- Start Footer bottom Area -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h6>Thank You for visiting,<br></h6><h2><span>Jeet </span>Bhatelia</h2>
+                </div>
+				
+                <p><a target="_blank" href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=cXyDwNbRsnEcQUjp8/9k1/FzdLn9DNSaOazSg8Yp16E="><img width="150" height="70" src="img/background/ec.gif" /></a> &nbsp;&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://aspen.eccouncil.org/VerifyBadge?type=certification&a=A/BweGYteNNjE7Bbr9ufLCpZ/A9KRU0nN4j+9D+uBHM="><img width="130" height="50" src="img/background/c.png" /></a></p>
+                
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  This is Developed & Maintained by Jeet Bhatelia.
+				  <br>
+				  For More Details You Can :
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Telegram:</span> <a href="https://www.t.me/jbhatelia" target="_blank">t.me/JBhatelia</a></p>
+                  <p><span>Email:</span> <a href="mailto:jbhatelia@protonmail.com" target="_blank">jbhatelia@protonmail.com </a></p>
+                </div>
+				<div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a target="_blank" href="https://www.linkedin.com/in/jbhatelia"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                      <a target="_blank" href="https://github.com/jbhatelia"><i class="fa fa-github"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                This Website is Hosted on <strong>GitHub</strong>. 2020
+              </p>
+            </div>
+            <div class="credits">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
